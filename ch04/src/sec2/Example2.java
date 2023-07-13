@@ -1,7 +1,5 @@
 package sec2;
 
-import java.util.Formatter;
-
 public class Example2 {
     public static void main(String[] args) {
         int[] arr1 = {10, 20, 30};
@@ -15,6 +13,7 @@ public class Example2 {
             }
             System.out.println();
         }
+
         for (int i = 0; i < arr3.length; i++) { //면
             for (int j = 0; j < arr3[0].length; j++) { //줄
                 for (int k = 0; k < arr3[0][0].length; k++) { //칸
