@@ -3,7 +3,7 @@ package sec2;
 import java.io.*;
 
 //PrintWriter : 출력을 버퍼, 한 줄, 한 글자, 문자열 등의 모든 단위의 파일에 쓰기 작업
-public class PrinterWriterEx1 {
+public class PrintWriterEx1 {
     public static void main(String[] args) {
         try {
             File file = new File("out4.txt");
